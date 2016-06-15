@@ -1,0 +1,5 @@
+osfamily of this server is <%= $::osfamily %>
+
+host name is <%= $::hostname %>
+
+full qualified domain name is <%= $::fqdn %>
