@@ -14,7 +14,7 @@ class nodejs::install ( String $version = '6.2.0') {
       ensure => present,
     }
 
-    windows_env { 'PATH=C:\Users\builduser\AppData\Roaming\npm':
+    windows_env { 'PATH=C:\Users\vagrant\AppData\Roaming\npm':
       ensure => present,
     }
   }
